@@ -26,10 +26,9 @@ void display_contact(CONTACT *head);
 void delete_contact(CONTACT **head);
 void search_contact(CONTACT *head);
 void edit_contact(CONTACT*head);
+void sort_contacts(CONTACT **head);
 void save_contacts(CONTACT *head);
 void load_contacts(CONTACT **head);
 void free_contacts(CONTACT **head);
 
 #endif
-
-
