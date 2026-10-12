@@ -46,20 +46,20 @@ EXAMPLE
   enter the choice
   c
   enter name
-  Ravi
+  Balu
   enter the phonenumber
   9876543210
   Do you want to add another number to the same name (Y/N): n
   Do you want to add email (Y/N): y
-  Enter email: ravi@gmail.com
+  Enter email: balu@gmail.com
   Do you want to add address (Y/N): n
   Contact created successfully
 
   enter the choice
   p
-  name:Ravi
+  name:Balu
   phone number[1] :9876543210
-  email:ravi@gmail.com
+  email:balu@gmail.com
   address:Not Available
 
 
@@ -120,7 +120,7 @@ Every contact is stored in one structure (CONTACT), and the
 structures are joined together like a chain. This is a singly
 linked list.
 
-  head --> [Ravi] --> [Anu] --> [Kiran] --> NULL
+  head --> [Balu] --> [Anu] --> [Kiran] --> NULL
 
 Each structure has a "next" pointer that points to the next
 contact.
@@ -133,10 +133,10 @@ Loading : when the program starts it reads phonebook.dat and
 The saved file is plain text:
 
   =============== CONTACT 1 ===============
-  Name    :Ravi
+  Name    :Balu
   Count   :1
   Phone number[1] :9876543210
-  Email    :ravi@gmail.com
+  Email    :balu@gmail.com
   Address  :Not Available
 
 
@@ -182,7 +182,7 @@ FUTURE IMPROVEMENTS
 
 AUTHOR
 ------
-  Name : <your name>
-  ID   : <your ID>
+  Name : Balaji Pidikiti
+  ID   : V25HE11B5
 
 ==============================================================
