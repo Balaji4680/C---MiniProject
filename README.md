@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="images/banner.png" alt="Phone Book App banner" width="100%">
+  <img width="1600" height="340" alt="banner" src="https://github.com/user-attachments/assets/3144dc27-eeff-4757-970b-dceffe7ef76b" />
+
 </p>
 
 A menu based phone book written in **C** using a **singly linked list**, **file handling** and a **Makefile**.
@@ -16,7 +17,8 @@ make            # compile
 ```
 
 <p align="center">
-  <img src="images/terminal_demo.png" alt="Example run in the terminal" width="85%">
+  <img width="1520" height="668" alt="terminal_demo" src="https://github.com/user-attachments/assets/14bc613c-eb81-4031-b1b0-df19d63d18f4" />
+
 </p>
 
 ## ✨ Features
@@ -42,7 +44,8 @@ q/Q : Quit
 
 ## 🔄 Program Flow
 <p align="center">
-  <img src="images/flowchart.png" alt="Flow chart of the program" width="90%">
+  <img width="1640" height="1240" alt="flowchart" src="https://github.com/user-attachments/assets/a3f5ae36-bce4-4e4c-bd14-6e0e1d76d68f" />
+
 </p>
 
 The program loads the saved contacts, then shows the menu again and again until you press `q`.
@@ -51,7 +54,8 @@ The program loads the saved contacts, then shows the menu again and again until 
 Every contact is stored in one structure, and the structures are joined together like a chain. This is a **singly linked list**.
 
 <p align="center">
-  <img src="images/linked_list.png" alt="Linked list diagram" width="95%">
+  <img width="1740" height="524" alt="linked_list" src="https://github.com/user-attachments/assets/da56179e-0fd6-4e86-b073-5f0aad40f7bd" />
+
 </p>
 
 ```c
@@ -68,7 +72,8 @@ typedef struct contact
 
 ### 💾 Saving and Loading
 <p align="center">
-  <img src="images/save_load.png" alt="Saving and loading diagram" width="90%">
+  <img width="1520" height="480" alt="save_load" src="https://github.com/user-attachments/assets/15477d20-f327-4b52-b871-a82a584e4777" />
+
 </p>
 
 - **Saving:** pressing `s` writes every contact to `phonebook.dat`.
@@ -132,5 +137,5 @@ Address  :Not Available
 - Check phone number and email format
 
 ## 👤 Author
-**Name:** `<your name>`  
-**ID:** `<your ID>`
+**Name:** `Balaji Pidikiti`  
+**ID:** `V25HE11B5
