@@ -1,9 +1,10 @@
 <p align="center">
-  <img width="1600" height="340" alt="banner" src="https://github.com/user-attachments/assets/3144dc27-eeff-4757-970b-dceffe7ef76b" />
+  <img width="3200" height="760" alt="banner_pro" src="https://github.com/user-attachments/assets/e0ea1a7c-4e5d-44c3-a385-bad53c918446" />
+
 
 </p>
 
-A menu based phone book written in **C** using a **singly linked list**, **file handling** and a **Makefile**.
+A Menu based phone book written in **C** using a **singly linked list**, **file handling** and a **Makefile**.
 Your contacts are saved in a file, so they are still there when you open the program again.
 
 <p align="center">
