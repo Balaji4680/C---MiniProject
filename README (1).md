@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="images/banner.svg" alt="Phone Book banner" width="100%">
+  <img width="3200" height="760" alt="banner_pro" src="https://github.com/user-attachments/assets/ab0c63ff-d040-47a4-bd4f-c842d96e8791" />
+
 </p>
 
 A Menu based phone book written in **C** using a **singly linked list**, **file handling** and a **Makefile**.
@@ -48,7 +49,8 @@ make            # compile
 ```
 
 <p align="center">
-  <img src="images/terminal_demo.svg" alt="Terminal demo" width="100%">
+  <img width="2400" height="1080" alt="terminal_demo" src="https://github.com/user-attachments/assets/f1869d70-eeda-4e24-bfa4-581a9e9c259b" />
+
 </p>
 
 ## ✨ Features
@@ -77,7 +79,8 @@ q/Q : Save automatically and quit
 
 ## 🔄 Program Flow
 <p align="center">
-  <img src="images/flowchart.svg" alt="Program flowchart" width="100%">
+  <img width="2480" height="1460" alt="flowchart" src="https://github.com/user-attachments/assets/823c5a18-fc08-4767-b9d0-7a212f0e6eaa" />
+
 </p>
 
 The program loads the saved contacts, then shows the menu again and again. Every action returns to the menu, except `q`, which saves, frees the list and exits.
@@ -87,7 +90,8 @@ Orange boxes were **updated** and the green box is **new** in this version.
 Every contact is stored in one structure, and the structures are joined together like a chain. This is a **singly linked list**.
 
 <p align="center">
-  <img src="images/linked_list.svg" alt="Linked list diagram" width="100%">
+  <img width="2480" height="750" alt="linked_list" src="https://github.com/user-attachments/assets/24e19af4-37da-497f-8799-f77995fea758" />
+
 </p>
 
 ```c
@@ -109,7 +113,8 @@ typedef struct contact
 `sort_contacts()` uses insertion sort. Each node is taken from the old list and linked into its correct place in a new sorted list.
 
 <p align="center">
-  <img src="images/sort_relink.svg" alt="Sort by relinking nodes" width="100%">
+  <img width="1800" height="700" alt="sort_relink" src="https://github.com/user-attachments/assets/584ec690-8851-4877-a16a-535f96ef1dc3" />
+
 </p>
 
 - Names are compared with `compare_names()`, which ignores upper/lower case
@@ -119,7 +124,8 @@ typedef struct contact
 
 ### 💾 Saving and Loading
 <p align="center">
-  <img src="images/save_load.svg" alt="Save and load diagram" width="100%">
+  <img width="2480" height="800" alt="save_load" src="https://github.com/user-attachments/assets/496386c4-2d5e-4f8a-aa39-bead2ae3a085" />
+
 </p>
 
 - **Saving:** pressing `s` writes every contact to `phonebook.dat`. Pressing `q` does the same automatically before exit.
@@ -183,8 +189,6 @@ Address  :Not Available
 - Check phone number and email format
 - Make the duplicate-name check ignore upper/lower case
 - Sort by other fields such as phone number
-- Use `fgets` for all input to prevent overflow
-- Show a message when the contact to edit is not found
 
 ## 👤 Author
 **Name:** `Balaji Pidikiti`  
