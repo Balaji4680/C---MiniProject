@@ -6,7 +6,7 @@ int main()
 	load_contacts(&head);
 	while(1)
 	{
-		printf("c/C:create p/P:display d/D:delete f/F:find e/E:edit s/S:save q/Q:quit\n");
+		printf("c/C:create p/P:display d/D:delete f/F:find e/E:edit o/O:sort s/S:save q/Q:quit\n");
 		printf("enter the choice\n");
 		scanf(" %c",&choice);
 		switch(choice)
@@ -36,6 +36,11 @@ int main()
                 		edit_contact(head);
                 		break;
 
+            		case 'o':
+            		case 'O':
+                		sort_contacts(&head);
+                		break;
+
             		case 's':
             		case 'S':
                 		save_contacts(head);
@@ -43,6 +48,8 @@ int main()
 
             		case 'q':
             		case 'Q':
+                		save_contacts(head);
+                		printf("Contacts saved automatically\n");
                 		free_contacts(&head);
                 		printf("Exiting Phone Book...\n");
                 		exit(0);
@@ -53,4 +60,3 @@ int main()
         	}
     	}
 }
-
